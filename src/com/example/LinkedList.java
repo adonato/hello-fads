@@ -9,7 +9,7 @@ public class LinkedList implements Iterable {
     private Node tail;
     private int size;
     private String awesomeString;
-    
+     
     public Iterator iterator(){
         return new LLIterator();
     }
