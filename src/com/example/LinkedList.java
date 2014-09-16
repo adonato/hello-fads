@@ -8,8 +8,8 @@ public class LinkedList implements Iterable {
     private Node head;
     private Node tail;
     private int size;
-    private String awesomeString;
-     
+    private String someString;
+    
     public Iterator iterator(){
         return new LLIterator();
     }
@@ -118,7 +118,7 @@ public class LinkedList implements Iterable {
     }
     
     public void add(Object obj){
-       Node newNode = new Node(obj, null);
+        Node newNode = new Node(obj, null);
         if( size == 0 )
             head = newNode;
         else
@@ -137,12 +137,12 @@ public class LinkedList implements Iterable {
         }
     }
     
-    public String getAwesomeString() {
-              return awesomeString;
+    public String getSomeString() {
+              return someString;
     }
     
-    public void setAwesomeString(String awesomeString) {
-              this.awesomeString = awesomeString;
+    public void setSomeString(String someString) {
+              this.someString = someString;
     }
     
     public String toString(){
