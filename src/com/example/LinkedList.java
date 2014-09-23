@@ -11,7 +11,7 @@ public class LinkedList implements Iterable {
     private String awesomeString;
     
     public Iterator iterator(){
-        return new LLIterator();
+        return new Iterator();
     }
     
     private class LLIterator implements Iterator{
