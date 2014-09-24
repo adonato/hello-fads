@@ -10,6 +10,7 @@ public class LinkedList implements Iterable {
     private int size;
     private String someString;
     
+    
     public Iterator iterator(){
         return new Iterator();
     }
